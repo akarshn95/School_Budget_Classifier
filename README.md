@@ -5,3 +5,13 @@ The columns of the school budget data are divided into numerical and text column
 
 
 ## Running the Model
+
+Get the data, from https://www.drivendata.org/competitions/46/box-plots-for-education-reboot/
+
+To run the notebook, first install the dependencies with:
+
+    pip install -r requirements.txt
+
+Then run:
+
+    jupyter notebook notebooks/code_notebook.ipynb
