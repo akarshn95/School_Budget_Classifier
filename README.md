@@ -15,3 +15,7 @@ To run the notebook, first install the dependencies with:
 Then run:
 
     jupyter notebook notebooks/code_notebook.ipynb
+
+## About the model
+
+The model is a multiclass LogisiticRegression model implemented using OnevsRestClassifier after scaling, dimension reduction with SelecKBest and transforming the dataset. We have obtained a log loss score of 1.999 after training the model with 100,000 records of the school budgetting dataset.
